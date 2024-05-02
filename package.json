@@ -1,8 +1,13 @@
 {
   "name": "autocomplete-why-me",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "author": {
+    "name": "Ibrahim Aliu",
+    "email": "94ibrahimali@gmail.com",
+    "url": "https://www.ibrahimaliu.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
