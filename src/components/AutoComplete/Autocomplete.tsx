@@ -93,6 +93,7 @@ export default function Autocomplete({
         onChange={handleInputChange}
         onFocus={onFocus}
         id="autocomplete-input"
+        autoComplete="off"
       />
       {showPopup && renderPopup()}
     </div>

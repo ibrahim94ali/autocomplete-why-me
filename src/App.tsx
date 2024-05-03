@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import "./App.css";
-import Autocomplete from "@/components/Autocomplete";
+import Autocomplete from "@/components/AutoComplete";
 import { fetchWhyMe } from "./services/whyme";
+import "./App.css";
 
 function App() {
   const [value, setValue] = useState("");
@@ -38,6 +38,7 @@ function App() {
 
   useEffect(() => {
     setIsLoading(true);
+    // 200ms timeout to mock API request for updated value
     const timer = setTimeout(() => {
       const newData = filterData(data, value);
       setFilteredData(newData);

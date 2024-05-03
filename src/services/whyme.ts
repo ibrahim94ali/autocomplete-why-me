@@ -1,4 +1,4 @@
-export interface WhyMeResponse {
+interface WhyMeResponse {
   adjectives: string[];
 }
 
